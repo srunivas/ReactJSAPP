@@ -1,4 +1,5 @@
 import './ContactUs.css';
+import { BsFillChatLeftTextFill } from 'react-icons/bs';
 import ContactUsImage from '../../MainSectionImages/image 42.png';
 import Image1 from '../../MainSectionImages/image 12.png';
 import Image2 from '../../MainSectionImages/image 14.png';
@@ -33,6 +34,11 @@ function ContactUs()
                 <h3>If you are having any questions about ZUQO, please contact us. We look forward to hearing from you. </h3>
             </div>
             
+<div className='Chat'>
+                <h2><BsFillChatLeftTextFill/></h2>
+            </div>
+            
+
             <div className='MainSectionItems'>
             {
                 listOfItems.map((e)=>{
