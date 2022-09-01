@@ -12,7 +12,6 @@ function ContactUs()
 {
     var listOfItems = ["Contact Us","Watch Demo","Chat With Us"];
 
-    var listOfCountryItems = ["Contact Us", "Watch Demo", "Chat With Us", "Contact Us", "Watch Demo", "Chat With Us"];
 
 
     var listOfCountryItemsDetails = [
