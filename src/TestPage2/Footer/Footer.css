@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Footer {
+    width: 98%;
+    height: 1000px;
+    background-color: #161C28;
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.Footer .LeftSide {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Footer .RightSide {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Footer .RightSide .RightTop {
+    height: 600px;
+    width: 80%;
+    background-color: #222938;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.Footer .RightSide .RegisterDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+}
+
+.Footer .RightSide .RegisterDetails .Register {
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 15px;
+    box-sizing: border-box;
+    color: #A6A6A6;
+    font-size: 14px;
+}
+
+.Footer .RightSide .RegisterDetails .button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 0px solid black;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    background-color: #FC5353;
+    color: white;
+    font-size: 16px;
+}
+
+.Footer .RightSide .RegisterDetails text {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial;
+}
+
+.Footer .RightSide .RightBottom {
+    width: 100%;
+}
+
+.Footer .RightSide .RightBottom .Support h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 100;
+    font-family: Arial;
+    font-style: normal;
+}
+
+.Footer .RightSide .RightBottom .Support {
+    display: flex;
+    width: 100%;
+    line-height: 8px;
+}
+
+.Footer .RightSide .RightBottom .Support2 h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 100;
+    font-family: Arial;
+    font-style: normal;
+    line-height: 10px;
+    color: #A6A6A6;
+}
+
+.Footer .RightSide .RightBottom .Support2 {
+    display: flex;
+    width: 100%;
+}
+
+.Footer .RightSide .TermsAndConditions h4 {
+    margin-top: 15px;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.Footer .RightSide .TermsAndConditions {
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+}
+
+.Footer .LeftSide .LeftTop {
+    height: 600px;
+    background-color: #161C28;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 80%;
+    line-height: 61px;
+}
+
+.Footer .LeftSide .LeftTop .ProfileImage {
+    display: flex;
+}
+
+.Footer .LeftSide .LeftTop .ProfileImage .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.Footer .LeftSide .LeftTop .ProfileImage .IconCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 15px;
+    background-color: black;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .LeftSide .LeftTop .BottomImage {
+    margin-top: 150px;
+}
+
+.Footer .LeftSide .LeftTop h6 {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+}
+
+.Footer .LeftSide .LeftTop .LeftInput {
+    height: 55px;
+    width: 60%;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: relative;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid #A6A6A6;
+    background-color: #161C28;
+}
+
+.Footer .LeftSide .LeftTop .bottom {
+    position: relative;
+    width: 100%;
+}
+
+.Footer .LeftSide .LeftTop .send {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    right: 37%;
+    top: 290px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer .LeftSide .LeftTop .send .Icon {
+    font-size: 25px;
+    color: white;
+}
+
+.Footer .LeftSide .LeftTop h1 {
+    color: aliceblue;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.Footer .RightSide .RightTop .RegisterDetails h4 {
+    margin-top: 15px;
+    color: white;
+}
+
+.Footer .RightSide .RightTop h2 {
+    margin-top: 15px;
+    color: white;
+    font-family: Arial;
+    font-size: 40px;
+}
+
+.Footer .LeftSide .LeftTop h2 {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #A6A6A6;
+    line-height: 30px;
+    margin-top: 30px;
+}

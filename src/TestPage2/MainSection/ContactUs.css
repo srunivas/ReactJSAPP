@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ContactUs {
+    padding-top: 50px;
+    height: 650px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactUs img {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    background-color: gray;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    color: #FFFFFF;
+    margin-top: 40px;
+    text-align: center;
+    padding-right: 180px;
+    padding-left: 180px;
+    padding-bottom: 100px;
+}
+
+.MainSectionItems {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MainSectionItems .listOfBox {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+h4 {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding-right: 5px;
+}
+
+.specialistIcon {
+    display: flex;
+    align-items: center;
+}
+
+.OurOfficeCountry {
+    position: relative;
+    width: 100%;
+    height: 1208px;
+    background: rgba(255, 223, 223, 0.61);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.OurOfficeCountry .h7 {
+    margin-left: 250px;
+    font-size: 40px;
+}
+
+.OurOfficeCountry .BoxItem {
+    height: 300px;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid black;
+    border-color: #C6C6C6;
+    margin-top: 150px;
+}
+
+.OurOfficeCountry .BoxItem:hover {
+    height: 310px;
+    width: 310px;
+}
+
+h5 {
+    margin-top: 2px;
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+.OurOfficeCountry .BoxItem:hover h5 {
+    color: red;
+    margin-top: 2px;
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+.OurOfficeCountry .BoxItem .GetDirections {
+    display: flex;
+    align-items: center;
+}
+
+.OurOfficeCountry .BoxItem .Address {
+    padding-left: 5%;
+    width: 95%;
+    height: 38%;
+    margin-bottom: 2%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.OurOfficeCountry .BoxItem .Address p {
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.OurOfficeCountry .BoxItem .Address h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.OurOfficeCountry .BoxItem img {
+    width: 100%;
+    height: 60%;
+    border: 1px solid #C6C6C6;
+}
+
+h6 {
+    font-size: 12px;
+    margin-right: 10px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.CountryList {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}

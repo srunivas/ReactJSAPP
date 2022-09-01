@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    z-index: +1;
+}
+
+.Header img {
+    height: 40px;
+}
+
+.Header .ListItems {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header .ListItems .Items {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.Header .ListItems .Items .DropDownContent {
+    display: none;
+}
+
+.Header .ListItems .Items:hover .DropDownContent {
+    position: absolute;
+    margin-top: 90px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.Header .ListItems .Items:hover {
+    cursor: pointer;
+}
+
+.Header .ListItems .Items .DropDownButton:hover {
+    cursor: pointer;
+    background-color: #FF4040;
+    border-radius: 10px;
+}
+
+.Header .ListItems .Items .DropDownButton {
+    border: none;
+    background-color: #FFFFFF;
+    color: #7B7B7B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    height: 60%;
+}
+
+.Header .ListItems .Items .DropDownContent a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 95%;
+    padding-left: 5%;
+}
+
+.Header .listOfButtons .Login {
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #7B7B7B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.Header .listOfButtons .SignUp {
+    font-size: 16px;
+    background-color: #FF4040;
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.Header .listOfButtons .Login:hover {
+    cursor: pointer;
+}
+
+.Header .listOfButtons .SignUp:hover {
+    cursor: pointer;
+}
